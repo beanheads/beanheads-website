@@ -3,6 +3,7 @@
   import Footer from '$lib/components/Footer.svelte';
   import PhoneMock from '$lib/components/PhoneMock.svelte';
   import { inView } from '$lib/actions/inView';
+  import { base } from '$app/paths';
 
   let activePhone = 'hero';
 
@@ -58,7 +59,7 @@
     <div>
       <!-- Hero copy -->
       <div id="hero" use:inView={{ onEnter: () => setActive('hero') }}>
-        <img src="/assets/beanheads_wordmark.png" alt="Beanheads" class="h-12 md:h-14 w-auto mb-6" />
+        <img src={`${base}/assets/beanheads_wordmark.png`} alt="Beanheads" class="h-12 md:h-14 w-auto mb-6" />
         <h1 class="text-4xl md:text-6xl font-bold text-night">Elevate every cup.</h1>
         <p class="mt-6 text-night/85 text-base md:text-lg max-w-2xl font-normal">
           Beanheads is the ultimate app for coffee enthusiasts who want to perfect their craft, discover amazing spots, and connect with fellow coffee lovers worldwide. Whether you're brewing at home or exploring cafes, we give you the tools and knowledge to elevate every cup.

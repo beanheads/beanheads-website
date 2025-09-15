@@ -1,6 +1,7 @@
 <script lang="ts">
   export let active: string;
   import { fade } from 'svelte/transition';
+  import { base } from '$app/paths';
 
   function escXml(text: string) {
     return text
@@ -32,12 +33,12 @@
   }
 
   const screens: Record<string, { src: string; alt: string }> = {
-    hero: { src: '/assets/hero.svg', alt: 'Beanheads Home' },
-    home: { src: '/assets/home.svg', alt: 'Home Reviews screen' },
-    cafe: { src: '/assets/cafe.svg', alt: 'Cafe Reviews screen' },
-    community: { src: '/assets/community.svg', alt: 'Community screen' },
-    explore: { src: '/assets/explore.svg', alt: 'Explore & Learn screen' },
-    pantry: { src: '/assets/pantry.svg', alt: 'Pantry screen' }
+    hero: { src: `${base}/assets/hero.svg`, alt: 'Beanheads Home' },
+    home: { src: `${base}/assets/home.svg`, alt: 'Home Reviews screen' },
+    cafe: { src: `${base}/assets/cafe.svg`, alt: 'Cafe Reviews screen' },
+    community: { src: `${base}/assets/community.svg`, alt: 'Community screen' },
+    explore: { src: `${base}/assets/explore.svg`, alt: 'Explore & Learn screen' },
+    pantry: { src: `${base}/assets/pantry.svg`, alt: 'Pantry screen' }
   };
 </script>
 

@@ -1,8 +1,12 @@
+<script lang="ts">
+  import { base } from '$app/paths';
+</script>
+
 <footer class="mt-24 border-t border-blackbean/10 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
     <div>
       <div class="mb-4">
-        <img src="/assets/beanheads_wordmark.png" alt="Beanheads" class="h-8 w-auto" />
+        <img src={`${base}/assets/beanheads_wordmark.png`} alt="Beanheads" class="h-8 w-auto" />
       </div>
       <p class="text-night/70 text-sm">Elevate every cup.</p>
     </div>
