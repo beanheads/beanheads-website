@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Typography helpers to align with brand */
+:root {
+  --bg: theme(colors.night);
+  --fg: theme(colors.khaki);
+  --accent: theme(colors.racinggreen);
+}
+
+html, body, #svelte {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: theme(fontFamily.inter);
+}
+
+/* Simple placeholder utility */
+.placeholder-tile {
+  @apply bg-blackbean/40 border border-coffee/50 rounded-lg flex items-center justify-center text-khaki/70;
+}
+
