@@ -1,7 +1,6 @@
 <script lang="ts">
   const links = [
-    { href: '#about', label: 'About' },
-    { href: '#download', label: 'Download' },
+    { href: '#about', label: 'About' }
   ]
 </script>
 
