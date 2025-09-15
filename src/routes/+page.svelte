@@ -70,20 +70,20 @@
       </div>
 
       <!-- Features -->
-      <div id="about" class="space-y-16 mt-20 md:mt-28">
+      <div id="about" class="space-y-20 mt-20 md:mt-28">
         {#each features as feat}
           <div
             id={feat.id}
             use:inView={{ onEnter: () => setActive(feat.phoneKey) }}
-            class="scroll-mt-28"
+            class="scroll-mt-28 rounded-2xl border border-blackbean/10 bg-white p-6 md:p-8 shadow-sm"
           >
-            <div class="flex items-start gap-4">
-              <div class="h-12 w-12 rounded-lg bg-racinggreen/90 flex items-center justify-center shrink-0">
-                <ion-icon name={feat.icon} class="text-night text-2xl"></ion-icon>
+            <div class="flex items-start gap-6">
+              <div class="h-14 w-14 rounded-xl bg-blackbean flex items-center justify-center shrink-0">
+                <ion-icon name={feat.icon} class="text-khaki text-3xl"></ion-icon>
               </div>
               <div>
-                <h2 class="text-2xl md:text-3xl font-semibold text-night">{feat.title}</h2>
-                <p class="mt-3 text-night/85 max-w-prose font-normal">{feat.desc}</p>
+                <h2 class="text-3xl md:text-4xl font-semibold text-night">{feat.title}</h2>
+                <p class="mt-4 text-night/85 max-w-prose text-lg">{feat.desc}</p>
               </div>
             </div>
           </div>
