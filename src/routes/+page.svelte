@@ -58,12 +58,12 @@
     <div>
       <!-- Hero copy -->
       <div id="hero" use:inView={{ onEnter: () => setActive('hero') }}>
-        <h1 class="text-4xl md:text-6xl font-bold text-khaki">Elevate every cup.</h1>
-        <p class="mt-6 text-khaki/85 text-base md:text-lg max-w-2xl font-normal">
+        <h1 class="text-4xl md:text-6xl font-bold text-night">Elevate every cup.</h1>
+        <p class="mt-6 text-night/85 text-base md:text-lg max-w-2xl font-normal">
           Beanheads is the ultimate app for coffee enthusiasts who want to perfect their craft, discover amazing spots, and connect with fellow coffee lovers worldwide. Whether you're brewing at home or exploring cafes, we give you the tools and knowledge to elevate every cup.
         </p>
         <div class="mt-8 flex flex-wrap gap-4">
-          <a href="#download" class="inline-flex items-center rounded-md bg-racinggreen text-khaki px-6 py-3 font-semibold hover:opacity-90 transition-opacity">
+          <a href="#download" class="inline-flex items-center rounded-md bg-blackbean text-khaki px-6 py-3 font-semibold hover:opacity-90 transition-opacity">
             Sign up for the Beta
           </a>
         </div>
@@ -79,11 +79,11 @@
           >
             <div class="flex items-start gap-4">
               <div class="h-12 w-12 rounded-lg bg-racinggreen/90 flex items-center justify-center shrink-0">
-                <ion-icon name={feat.icon} class="text-khaki text-2xl"></ion-icon>
+                <ion-icon name={feat.icon} class="text-night text-2xl"></ion-icon>
               </div>
               <div>
-                <h2 class="text-2xl md:text-3xl font-semibold text-khaki">{feat.title}</h2>
-                <p class="mt-3 text-khaki/85 max-w-prose font-normal">{feat.desc}</p>
+                <h2 class="text-2xl md:text-3xl font-semibold text-night">{feat.title}</h2>
+                <p class="mt-3 text-night/85 max-w-prose font-normal">{feat.desc}</p>
               </div>
             </div>
           </div>
@@ -102,11 +102,11 @@
 
 <!-- Download CTA -->
 <section id="download" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24 md:mt-32">
-  <div class="rounded-2xl border border-khaki/15 bg-blackbean/30 p-8 md:p-12 text-center">
-    <h3 class="text-3xl md:text-4xl font-bold text-khaki">Start your coffee journey today.</h3>
-    <p class="mt-4 text-khaki/85 font-normal max-w-2xl mx-auto">Join the Beanheads beta to get early access to features and help shape the future of coffee.</p>
+  <div class="rounded-2xl border border-blackbean/10 bg-white p-8 md:p-12 text-center">
+    <h3 class="text-3xl md:text-4xl font-bold text-night">Start your coffee journey today.</h3>
+    <p class="mt-4 text-night/85 font-normal max-w-2xl mx-auto">Join the Beanheads beta to get early access to features and help shape the future of coffee.</p>
     <div class="mt-8 flex items-center justify-center gap-4">
-      <a href="#" class="inline-flex items-center rounded-md bg-racinggreen text-khaki px-6 py-3 font-semibold hover:opacity-90 transition-opacity">
+      <a href="#" class="inline-flex items-center rounded-md bg-blackbean text-khaki px-6 py-3 font-semibold hover:opacity-90 transition-opacity">
         Sign up for the Beta
       </a>
     </div>

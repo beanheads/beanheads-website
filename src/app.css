@@ -4,9 +4,9 @@
 
 /* Typography helpers to align with brand */
 :root {
-  --bg: theme(colors.night);
-  --fg: theme(colors.khaki);
-  --accent: theme(colors.racinggreen);
+  --bg: white;
+  --fg: theme(colors.night);
+  --accent: theme(colors.blackbean);
 }
 
 html, body, #svelte {
@@ -21,6 +21,5 @@ body {
 
 /* Simple placeholder utility */
 .placeholder-tile {
-  @apply bg-blackbean/40 border border-coffee/50 rounded-lg flex items-center justify-center text-khaki/70;
+  @apply bg-blackbean/5 border border-coffee/20 rounded-lg flex items-center justify-center text-night/70;
 }
-
