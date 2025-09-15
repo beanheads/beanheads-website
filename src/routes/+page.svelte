@@ -71,7 +71,7 @@
       </div>
 
       <!-- Features -->
-      <div id="about" class="space-y-20 mt-20 md:mt-28">
+      <div id="about" class="scroll-mt-28 space-y-20 mt-20 md:mt-28">
         {#each features as feat}
           <div
             id={feat.id}
