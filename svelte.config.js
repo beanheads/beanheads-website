@@ -1,9 +1,9 @@
-import { sveltekit } from '@sveltejs/kit/vite';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-/** @type {import('vite').UserConfig} */
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
-  plugins: [sveltekit()]
+  kit: {},
+  preprocess: vitePreprocess()
 };
 
 export default config;
-

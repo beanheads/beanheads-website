@@ -66,8 +66,8 @@
         </a>
       </div>
     </div>
-    <div class="lg:pl-8">
-      <div class="lg:sticky lg:top-24">
+    <div class="hidden lg:block">
+      <div class="fixed-phone">
         <PhoneMock active={activePhone} />
       </div>
     </div>
@@ -102,11 +102,7 @@
       {/each}
     </div>
 
-    <div class="hidden lg:block lg:pl-8">
-      <div class="sticky top-24">
-        <PhoneMock active={activePhone} />
-      </div>
-    </div>
+    <div class="hidden lg:block"></div>
   </div>
 </section>
 
@@ -128,5 +124,11 @@
 <style>
   :global(.scroll-mt-28) {
     scroll-margin-top: 7rem;
+  }
+  :global(.fixed-phone) {
+    position: fixed;
+    top: 6rem; /* matches top-24 */
+    right: max(1rem, calc((100vw - 1280px) / 2 + 2rem)); /* align with container right + padding */
+    z-index: 40;
   }
 </style>
