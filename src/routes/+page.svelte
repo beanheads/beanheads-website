@@ -12,7 +12,7 @@
       id: 'home',
       title: 'Home Reviews',
       desc:
-        'Capture origin, roast, brew settings, and tasting notes to build your palate.',
+        'Home Reviews capture the complete story of your coffee, from bean origin and roast date to grinder settings, brewing method, water temperature, and tasting notes. Save every detail that matters, compare what works, and dial in your perfect recipe over time.',
       icon: 'book-outline',
       phoneKey: 'home',
     },
@@ -20,7 +20,7 @@
       id: 'cafe',
       title: 'Cafe Reviews',
       desc:
-        'Log your cafe visits, foam art, and atmosphere to track your favorites.',
+        "Cafe Reviews let you capture and share those amazing coffee moments with friends. Log what you loved, or didn't, about each cup. That perfect foam art, tasty beans, or the cozy atmosphere of the cafe. Share your finds with your coffee crew and discover new spots through their recommendations",
       icon: 'cafe-outline',
       phoneKey: 'cafe',
     },
@@ -28,21 +28,23 @@
       id: 'community',
       title: 'Community',
       desc:
-        'Join a global network of enthusiasts to share tips and discoveries.',
+        "Join a global community of coffee enthusiasts through our social features. Share your discoveries, learn from others' experiences, and engage in the kind of warm coffee conversations that make mornings better, no matter where you are in the world.",
       icon: 'people-outline',
       phoneKey: 'community',
     },
     {
       id: 'explore',
       title: 'Explore & Learn',
-      desc: 'Dive into brewing methods, recipes, and trends to level up.',
+      desc:
+        'Explore new brewing methods, discover trending recipes, and stay current with the latest in coffee culture. Find inspiration from fellow coffee lovers and expand your brewing horizons.',
       icon: 'bookmarks-outline',
       phoneKey: 'explore',
     },
     {
       id: 'pantry',
       title: 'Your Pantry',
-      desc: 'Organize beans, gear, grinders, and brewers in one place.',
+      desc:
+        'Your Pantry gives you a complete overview of your coffee arsenal; beans, equipment, and tools. Compare setups with the community, identify gaps in your collection, and strategically build toward your ideal brewing station.',
       icon: 'cube-outline',
       phoneKey: 'pantry',
     },
