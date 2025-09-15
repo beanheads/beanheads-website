@@ -41,8 +41,8 @@ npm run preview
 - Usage example in Svelte: `<ion-icon name="cafe-outline"></ion-icon>`.
 
 ## Adding Images
-- Place assets in `static/images/` and reference as `/images/your-file.png`.
-- Replace placeholder blocks (class `placeholder-tile`) in `+page.svelte`.
+- Place assets in `static/assets/` and reference as `/assets/your-file.ext`.
+ - Replace the phone screen mappings in `src/lib/components/PhoneMock.svelte` with your actual files.
 
 ## Scroll Sync
 - Each feature section uses `use:inView` to update the phone screen.

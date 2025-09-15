@@ -1,5 +1,15 @@
 <script lang="ts">
   export let active: string;
+  import { fade } from 'svelte/transition';
+
+  function escXml(text: string) {
+    return text
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  }
 
   function svgPlaceholder(label: string, bg = '#080F0F', fg = '#C3B091') {
     const w = 1170; // 9 * 130
@@ -15,19 +25,19 @@
   <rect width='100%' height='100%' fill='url(#g)'/>
   <g fill='${fg}' text-anchor='middle'>
     <text x='50%' y='48%' font-family='Inter, system-ui, sans-serif' font-size='80' opacity='0.9'>Beanheads</text>
-    <text x='50%' y='55%' font-family='Inter, system-ui, sans-serif' font-size='56' opacity='0.9'>${label}</text>
+    <text x='50%' y='55%' font-family='Inter, system-ui, sans-serif' font-size='56' opacity='0.9'>${escXml(label)}</text>
   </g>
 </svg>`;
     return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
   }
 
   const screens: Record<string, { src: string; alt: string }> = {
-    hero: { src: svgPlaceholder('Home'), alt: 'Beanheads Home' },
-    home: { src: svgPlaceholder('Home Reviews'), alt: 'Home Reviews screen' },
-    cafe: { src: svgPlaceholder('Cafe Reviews'), alt: 'Cafe Reviews screen' },
-    community: { src: svgPlaceholder('Community'), alt: 'Community screen' },
-    explore: { src: svgPlaceholder('Explore & Learn'), alt: 'Explore & Learn screen' },
-    pantry: { src: svgPlaceholder('Your Pantry'), alt: 'Pantry screen' }
+    hero: { src: '/assets/hero.svg', alt: 'Beanheads Home' },
+    home: { src: '/assets/home.svg', alt: 'Home Reviews screen' },
+    cafe: { src: '/assets/cafe.svg', alt: 'Cafe Reviews screen' },
+    community: { src: '/assets/community.svg', alt: 'Community screen' },
+    explore: { src: '/assets/explore.svg', alt: 'Explore & Learn screen' },
+    pantry: { src: '/assets/pantry.svg', alt: 'Pantry screen' }
   };
 </script>
 
@@ -38,8 +48,16 @@
     <div class="absolute left-1/2 -translate-x-1/2 top-3 h-6 w-32 rounded-full bg-blackbean/90 border border-khaki/10"></div>
 
     <!-- Screen -->
-    <div class="rounded-[36px] overflow-hidden bg-blackbean aspect-[9/19.5]">
-      <img class="w-full h-full object-cover" src={screens[active]?.src ?? screens.hero.src} alt={screens[active]?.alt ?? 'Beanheads screen'} />
+    <div class="rounded-[36px] overflow-hidden bg-blackbean aspect-[9/19.5] relative">
+      {#key active}
+        <img
+          class="absolute inset-0 w-full h-full object-cover"
+          src={screens[active]?.src ?? screens.hero.src}
+          alt={screens[active]?.alt ?? 'Beanheads screen'}
+          in:fade={{ duration: 250 }}
+          out:fade={{ duration: 250 }}
+        />
+      {/key}
     </div>
 
     <!-- Side buttons (decorative) -->
