@@ -80,7 +80,7 @@
           >
             <div class="flex items-start gap-6">
               <div class="h-14 w-14 rounded-xl bg-blackbean flex items-center justify-center shrink-0">
-                <ion-icon name={feat.icon} class="text-khaki text-3xl"></ion-icon>
+                <ion-icon name={feat.icon} class="text-ivory text-3xl"></ion-icon>
               </div>
               <div>
                 <h2 class="text-3xl md:text-4xl font-semibold text-night">{feat.title}</h2>
