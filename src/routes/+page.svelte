@@ -91,11 +91,6 @@
             <div>
               <h2 class="text-2xl md:text-3xl font-semibold text-khaki">{feat.title}</h2>
               <p class="mt-3 text-khaki/85 max-w-prose font-normal">{feat.desc}</p>
-
-              <!-- Placeholder imagery block -->
-              <div class="mt-6 placeholder-tile h-48 md:h-56">
-                Placeholder image for {feat.title}
-              </div>
             </div>
           </div>
         </div>
