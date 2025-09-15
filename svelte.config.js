@@ -1,9 +1,18 @@
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
+import adapter from "@sveltejs/adapter-static";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  kit: {},
-  preprocess: vitePreprocess()
+	kit: {
+		adapter: adapter(),
+		paths: {
+			base: process.env.BASE_PATH || "/beanheads-website",
+		},
+		prerender: {
+			entries: ["*"],
+		},
+	},
+	preprocess: vitePreprocess(),
 };
 
 export default config;
