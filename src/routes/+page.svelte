@@ -74,7 +74,7 @@
         {#each features as feat}
           <div
             id={feat.id}
-            use:inView={{ onEnter: () => setActive(feat.phoneKey) }}
+            use:inView={{ threshold: 0.65, onEnter: () => setActive(feat.phoneKey) }}
             class="scroll-mt-28 rounded-2xl border border-blackbean/10 bg-white p-6 md:p-8 shadow-sm"
           >
             <div class="flex items-start gap-6">
