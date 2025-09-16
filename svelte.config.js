@@ -6,7 +6,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: process.env.BASE_PATH || "/beanheads-website",
+			base: process.env.BASE_PATH || "",
 		},
 		prerender: {
 			entries: ["*"],
