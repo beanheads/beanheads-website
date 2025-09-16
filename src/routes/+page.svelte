@@ -152,7 +152,7 @@
     </p>
     <div class="mt-8 flex items-center justify-center gap-4">
       <a
-        href="#"
+        href="https://forms.gle/tWqkQ9DUUUSmzf3c9"
         class="inline-flex items-center rounded-md bg-blackbean text-ivory px-6
         py-3 font-semibold hover:opacity-90 transition-opacity">
         Sign up for the Alpha
