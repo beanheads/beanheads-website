@@ -20,7 +20,7 @@
       id: 'cafe',
       title: 'Cafe Reviews',
       desc:
-        "Cafe Reviews let you capture and share those amazing coffee moments with friends. Log what you loved, or didn't, about each cup. That perfect foam art, tasty beans, or the cozy atmosphere of the cafe. Share your finds with your coffee crew and discover new spots through their recommendations",
+        "Capture and share those amazing coffee moments with friends. Log what you loved, or didn't, about each cup. That perfect foam art, tasty beans, or the cozy atmosphere of the cafe. Share your finds with your coffee crew and discover new spots through their recommendations",
       icon: 'cafe-outline',
       phoneKey: 'cafe',
     },
@@ -36,7 +36,7 @@
       id: 'explore',
       title: 'Explore & Learn',
       desc:
-        'Explore new brewing methods, discover trending recipes, and stay current with the latest in coffee culture. Find inspiration from fellow coffee lovers and expand your brewing horizons.',
+        'Discover new brewing methods and trending recipes to stay current with the latest in coffee culture. Find inspiration from fellow coffee lovers and expand your brewing horizons.',
       icon: 'bookmarks-outline',
       phoneKey: 'explore',
     },
@@ -44,7 +44,7 @@
       id: 'pantry',
       title: 'Your Pantry',
       desc:
-        'Your Pantry gives you a complete overview of your coffee arsenal; beans, equipment, and tools. Compare setups with the community, identify gaps in your collection, and strategically build toward your ideal brewing station.',
+        'A complete overview of your coffee arsenal; beans, equipment, and tools. Compare setups with the community, identify gaps in your collection, and strategically build toward your ideal brewing station.',
       icon: 'cube-outline',
       phoneKey: 'pantry',
     },
