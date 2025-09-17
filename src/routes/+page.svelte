@@ -12,7 +12,7 @@
       id: 'home',
       title: 'Home Reviews',
       desc:
-        'Home Reviews capture the complete story of your coffee, from bean origin and roast date to grinder settings, brewing method, water temperature, and tasting notes. Save every detail that matters, compare what works, and dial in your perfect recipe over time.',
+        'Capture the complete story of your coffee, from bean origin and roast date to grinder settings, brewing method, water temperature, and tasting notes. Save every detail that matters, compare what works, and dial in your perfect recipe over time.',
       icon: 'book-outline',
       phoneKey: 'home',
     },
