@@ -33,12 +33,12 @@
   }
 
   const screens: Record<string, { src: string; alt: string }> = {
-    hero: { src: `${base}/assets/hero.svg`, alt: 'Beanheads Home' },
-    home: { src: `${base}/assets/home.svg`, alt: 'Home Reviews screen' },
-    cafe: { src: `${base}/assets/cafe.svg`, alt: 'Cafe Reviews screen' },
-    community: { src: `${base}/assets/community.svg`, alt: 'Community screen' },
-    explore: { src: `${base}/assets/explore.svg`, alt: 'Explore & Learn screen' },
-    pantry: { src: `${base}/assets/pantry.svg`, alt: 'Pantry screen' }
+    hero: { src: `${base}/assets/home_screenshot.png`, alt: 'Beanheads Home' },
+    home: { src: `${base}/assets/create_brew_screenshot.png`, alt: 'Home Reviews screen' },
+    cafe: { src: `${base}/assets/create_cafe_screenshot.png`, alt: 'Cafe Reviews screen' },
+    community: { src: `${base}/assets/explore_screenshot.png`, alt: 'Community screen' },
+    explore: { src: `${base}/assets/explore_screenshot.png`, alt: 'Explore & Learn screen' },
+    pantry: { src: `${base}/assets/pantry_equipment_screenshot.png`, alt: 'Pantry screen' }
   };
 </script>
 
