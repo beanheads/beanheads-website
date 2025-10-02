@@ -39,10 +39,11 @@ jobs:
           # Custom domain: serve at root path
           BASE_PATH: ""
 
-      - name: Include CNAME and .nojekyll
+      - name: Include CNAME, _config.yml and .nojekyll
         run: |
           mkdir -p build
           if [ -f CNAME ]; then cp CNAME build/; fi
+          if [ -f _config.yml ]; then cp _config.yml build/; fi
           touch build/.nojekyll
 
       - name: Upload artifact
