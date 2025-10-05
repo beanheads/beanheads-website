@@ -1,7 +1,8 @@
 <script lang="ts">
   import { base } from '$app/paths';
   const links = [
-    { href: '#about', label: 'About' }
+    { href: `${base}/#about`, label: 'About' },
+    { href: `${base}/changelog`, label: 'Changelog' },
   ]
 </script>
 
@@ -11,7 +12,7 @@
   <div
     class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center
     justify-between">
-    <a href="#" class="flex items-center gap-3">
+    <a href={`${base}/`} class="flex items-center gap-3">
       <img
         src={`${base}/assets/beanheads_logo_square.png`}
         alt="Beanheads"
@@ -26,7 +27,7 @@
         </a>
       {/each}
       <a
-        href="#download"
+        href={`${base}/#download`}
         class="inline-flex items-center rounded-md bg-blackbean text-ivory px-4
         py-2 font-semibold hover:opacity-90 transition-opacity">
         Get the App
