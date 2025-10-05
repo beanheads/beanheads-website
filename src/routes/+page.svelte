@@ -94,6 +94,13 @@
             Sign up for the Alpha
           </a>
         </div>
+        <div class="mt-3">
+          <a
+            href={`${base}/changelog`}
+            class="text-sm underline underline-offset-2 text-night/80 hover:text-blackbean">
+            View the changelog
+          </a>
+        </div>
       </div>
 
       <!-- Features -->
