@@ -81,9 +81,7 @@
 <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-24">
   <div
     class="rounded-2xl border border-blackbean/10 bg-white p-6 md:p-8 shadow-sm">
-    <h1 class="text-3xl md:text-4xl font-bold text-racinggreen mb-6">
-      Changelog
-    </h1>
+    <h1 class="text-3xl md:text-4xl font-bold text-khaki mb-6">Changelog</h1>
     <div class="prose max-w-none text-night/90" data-testid="changelog">
       {@html html}
     </div>

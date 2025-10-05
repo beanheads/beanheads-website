@@ -4,6 +4,7 @@
 -   [ ] Add a public feed
 -   [ ] Improve search features to discover better content
 -   [ ] Create a fully functional pantry page
+-   [ ] Enable notifications
 -   [ ] Enable Android deployment
 -   [ ] Public Beta launch
 
