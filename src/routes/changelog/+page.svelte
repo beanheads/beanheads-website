@@ -42,6 +42,13 @@
     margin: 0.5rem 1.25rem;
     padding-left: 1rem;
   }
+  /* Ensure list markers are visible */
+  :global(.prose ul) {
+    list-style: disc;
+  }
+  :global(.prose ol) {
+    list-style: decimal;
+  }
   :global(.prose li.task) {
     list-style: none;
   }
