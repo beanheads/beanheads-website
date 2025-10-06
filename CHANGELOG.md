@@ -1,45 +1,52 @@
 ## Roadmap
 
--   [ ] Allowing users to stay signed in.
--   [ ] Add functionality for searching with beans, cafes, etc.
--   [ ] Add a public feed
--   [ ] Improve search features to discover better content
--   [ ] Create a fully functional pantry page
--   [ ] Enable notifications
--   [ ] Add tagging friends to posts, mentions
--   [ ] Displaying more cafe information in posts
--   [ ] Map of locations a user has posted on their profile
--   [ ] Enable editing reviews
--   [ ] Enable Android deployment
--   [ ] Public Beta launch
+- [ ] Allowing users to stay signed in.
+- [ ] Add functionality for searching with beans, cafes, etc.
+- [ ] Add a public feed
+- [ ] Improve search features to discover better content
+- [ ] Create a fully functional pantry page
+- [ ] Enable notifications
+- [ ] Add tagging friends to posts, mentions
+- [ ] Displaying more cafe information in posts
+- [ ] Map of locations a user has posted on their profile
+- [ ] Enable editing reviews
+- [ ] Enable Android deployment
+- [ ] Public Beta launch
 
 ---
+
+## 10/5/2025
+
+### Patch Notes:
+
+- Users can now view a public feed of all user posts and toggle between that and just their following
+- The add new option in the create page has been moved to the top and is consistently available for easier access
 
 ## 10/3/2025
 
 ### Patch Notes:
 
--   Users can now click a user’s profile in a comment to view their profile
--   Users can now click the home button to refresh the feed.
--   Types now include Irish Coffee and Other
--   Added logo to header
+- Users can now click a user’s profile in a comment to view their profile
+- Users can now click the home button to refresh the feed.
+- Types now include Irish Coffee and Other
+- Added logo to header
 
 ## 10/1/2025
 
 ### Patch Notes:
 
--   Users can view unlimited posts of the people they follow in the home feed
--   Fixing bug on home screen that added extra side margin with scroll bar
--   Users can view their average rating, and home brew vs. cafe post split
+- Users can view unlimited posts of the people they follow in the home feed
+- Fixing bug on home screen that added extra side margin with scroll bar
+- Users can view their average rating, and home brew vs. cafe post split
 
 ## 9/30/2025
 
 ### Patch Notes:
 
--   Updated grind setting input to be manual, allowing non-integer values for grinders that require settings for quarter or half values.
--   Users can now click on the users in search results for ‘All’ to view their profile
--   Removed unused journey data on profile page
--   Like modal and create page modals are now matching the comments modal
+- Updated grind setting input to be manual, allowing non-integer values for grinders that require settings for quarter or half values.
+- Users can now click on the users in search results for ‘All’ to view their profile
+- Removed unused journey data on profile page
+- Like modal and create page modals are now matching the comments modal
 
 <!--
 How to use:
