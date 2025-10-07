@@ -15,6 +15,15 @@
 
 ---
 
+## 10/7/2025
+
+### Patch Notes:
+
+- Users can now reset their password
+- Recent searches only populate when a user clicks enter
+- User default bios are now clear and joined date has been removed
+- Logo placement in header
+
 ## 10/5/2025
 
 ### Patch Notes:
