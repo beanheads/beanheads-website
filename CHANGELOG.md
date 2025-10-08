@@ -15,6 +15,13 @@
 
 ---
 
+## 10/8/2025
+
+### Patch Notes:
+
+- Users should now stay signed in
+- Fixed profile page bugs
+
 ## 10/7/2025
 
 ### Patch Notes:
