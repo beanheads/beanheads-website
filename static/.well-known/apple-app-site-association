@@ -1,11 +1,5 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "TEAM_ID.BUNDLE_ID",
-        "paths": ["*"]
-      }
-    ]
+  "webcredentials": {
+    "apps": ["W4S422RS9J.social.beanheads.app"]
   }
 }
