@@ -15,6 +15,18 @@
 
 ---
 
+## 10/9/2025
+
+### Patch Notes:
+
+- Separated roaster and bean in a post 
+- Disabled share buttons on posts and profiles 
+- Fixed spacing of coffee info in a post without a bean
+- Fixed bug where brew parameters would not wrap properly in a post
+- Fixed bug for Drink name wrapping on a post 
+- Following/Followers modals now match comments/likes styling 
+
+
 ## 10/8/2025
 
 ### Patch Notes:
