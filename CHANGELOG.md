@@ -1,6 +1,6 @@
 ## Roadmap
 
-- [ ] Allowing users to stay signed in.
+- [X] Allowing users to stay signed in.
 - [ ] Add functionality for searching with beans, cafes, etc.
 - [X] Add a public feed
 - [ ] Improve search features to discover better content
