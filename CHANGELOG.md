@@ -2,7 +2,7 @@
 
 - [ ] Allowing users to stay signed in.
 - [ ] Add functionality for searching with beans, cafes, etc.
-- [ ] Add a public feed
+- [X] Add a public feed
 - [ ] Improve search features to discover better content
 - [ ] Create a fully functional pantry page
 - [ ] Enable notifications
