@@ -15,6 +15,12 @@
 
 ---
 
+## 10/15/2025
+
+### Patch Notes:
+- App login now supports password autofill/managers
+- State within the US or country name is now displayed alongside the city for cafe reviews
+
 ## 10/9/2025
 
 ### Patch Notes:
