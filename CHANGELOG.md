@@ -1,13 +1,14 @@
 ## Roadmap
 
+- [ ] New revamped create post experience
 - [ ] Add functionality for searching with beans, cafes, etc.
 - [ ] Improve search features to discover better content
 - [ ] Create a fully functional pantry page
 - [ ] Enable notifications
 - [ ] Add tagging friends to posts, mentions
-- [ ] Displaying more cafe information in posts
 - [ ] Map of locations a user has posted on their profile
-- [ ] Enable editing reviews
+- [ ] Informational pages for Beans and Cafes
+- [ ] Enable review options to edit, delete, and hide from public feed
 - [ ] Enable Android deployment
 - [ ] Public Beta launch
 
