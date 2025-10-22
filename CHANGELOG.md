@@ -17,7 +17,7 @@
 ## 10/21/2025
 
 ### Patch Notes:
-- Users should now see cafe search results based on their current location if they allow
+- Users should see cafe search results based on their current location if they allow
 
 ## 10/15/2025
 
