@@ -14,6 +14,11 @@
 
 ---
 
+## 10/25/2025
+
+### Patch Notes:
+- Users can now follow users they do not already directly from their posts
+
 ## 10/21/2025
 
 ### Patch Notes:
