@@ -14,6 +14,12 @@
 
 ---
 
+## 10/26/2025
+
+### Patch Notes:
+- Updated logo
+- Users can now delete their posts
+
 ## 10/25/2025
 
 ### Patch Notes:
