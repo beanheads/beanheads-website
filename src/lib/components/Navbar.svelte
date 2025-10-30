@@ -14,7 +14,7 @@
     justify-between">
     <a href={`${base}/`} class="flex items-center gap-3">
       <img
-        src={`${base}/assets/beanheads_logo_square.png`}
+        src={`${base}/assets/beanheads_logo.png`}
         alt="Beanheads"
         class="h-9 w-9 rounded-md" />
     </a>
