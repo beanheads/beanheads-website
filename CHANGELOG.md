@@ -14,6 +14,17 @@
 
 ---
 
+## 10/30/2025
+
+### Patch Notes:
+- Users are now internally notified when a post is liked or commented on, or if they are gain a follower
+- Users now appear first in the search page under ‘All’
+- Outlined button for Following/Public feed toggle
+- Added Instant Coffee and Frappuccino to coffee types
+- Fixed spacing issue for own posts
+- Fixed bug for app display name
+
+
 ## 10/26/2025
 
 ### Patch Notes:
